@@ -1,0 +1,17 @@
+The body-parser module is just a middleware we use to parse our data sent through HTTP requests.
+
+
+
+
+module.exports = app;
+This file will be used for configuring the app, and that alone.
+All of the logic will be put in its respective directory regarding the specific feature it will be implementing. 
+We use module.exports to make this app object visible to the rest of the program when we call for it using require().
+
+
+Let’s just make a quick intro to REST, to better understand the 4 actions we have on our disposal to interact with a database. They are called CRUD. Standing for Create, Read, Update and Delete. Using HTTP requests, we can use the respective action to trigger every of these four CRUD operations.
+    POST is used to send data to a server — Create
+    GET is used to fetch data from a server — Read
+    PUT is used to send and update data — Update
+    DELETE is used to delete data — Delete
+The best way to understand this is to jump right in.
